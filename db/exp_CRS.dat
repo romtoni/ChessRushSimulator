@@ -1,0 +1,4 @@
+FILE="D:\Server\Application\xampp_uptodate\htdocs\ChessRushSimulator\db\CRS.DMP"
+LOG="D:\Server\Application\xampp_uptodate\htdocs\ChessRushSimulator\db\exp_CRS.log"
+OWNER=('USER_CHESSRUSH')
+FEEDBACK=1000
