@@ -85,7 +85,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table        CR_ITEM_STAT_DETAIL_DEL
                                                             0 rows exported
 . . exporting table             CR_SAVE_BUILD_LIST
-                                                            8 rows exported
+                                                           16 rows exported
 . . exporting table         CR_SAVE_BUILD_LIST_DEL
                                                             0 rows exported
 . . exporting table                     CR_SYNERGY
