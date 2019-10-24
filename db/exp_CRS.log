@@ -15,11 +15,11 @@ About to export USER_CHESSRUSH's objects ...
 . exporting cluster definitions
 . about to export USER_CHESSRUSH's tables via Conventional Path ...
 . . exporting table       CR_BUILD_DETAIL_HERO_TMP
-                                                            6 rows exported
+                                                            0 rows exported
 . . exporting table    CR_BUILD_DETAIL_SYNERGY_TMP
-                                                            1 rows exported
+                                                            0 rows exported
 . . exporting table              CR_BUILD_LIST_TMP
-                                                            1 rows exported
+                                                            0 rows exported
 . . exporting table                        CR_HERO
                                                            54 rows exported
 . . exporting table                  CR_HERO_CLASS
@@ -87,7 +87,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table             CR_SAVE_BUILD_LIST
                                                            21 rows exported
 . . exporting table         CR_SAVE_BUILD_LIST_DEL
-                                                            1 rows exported
+                                                           22 rows exported
 . . exporting table                     CR_SYNERGY
                                                            43 rows exported
 . . exporting table                CR_SYNERGY_CODE
