@@ -49,7 +49,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table       CR_HERO_SKILL_DETAIL_DEL
                                                             0 rows exported
 . . exporting table             CR_HERO_SKILL_TYPE
-                                                            4 rows exported
+                                                            5 rows exported
 . . exporting table         CR_HERO_SKILL_TYPE_DEL
                                                             0 rows exported
 . . exporting table                   CR_HERO_STAT
