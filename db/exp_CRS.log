@@ -23,11 +23,11 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table                        CR_HERO
                                                            54 rows exported
 . . exporting table                  CR_HERO_CLASS
-                                                           10 rows exported
+                                                            9 rows exported
 . . exporting table              CR_HERO_CLASS_DEL
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table                    CR_HERO_DEL
-                                                            0 rows exported
+                                                            2 rows exported
 . . exporting table               CR_HERO_OVERVIEW
                                                           162 rows exported
 . . exporting table           CR_HERO_OVERVIEW_DEL
@@ -37,7 +37,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table              CR_HERO_PHOTO_DEL
                                                             0 rows exported
 . . exporting table                   CR_HERO_RACE
-                                                           13 rows exported
+                                                           12 rows exported
 . . exporting table               CR_HERO_RACE_DEL
                                                             0 rows exported
 . . exporting table                  CR_HERO_SKILL
@@ -95,7 +95,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table            CR_SYNERGY_CODE_DEL
                                                             0 rows exported
 . . exporting table                 CR_SYNERGY_DEL
-                                                            0 rows exported
+                                                            2 rows exported
 . . exporting table                CR_SYNERGY_TYPE
                                                             3 rows exported
 . . exporting table            CR_SYNERGY_TYPE_DEL
