@@ -28,10 +28,6 @@ About to export USER_CHESSRUSH's objects ...
                                                             1 rows exported
 . . exporting table                    CR_HERO_DEL
                                                             2 rows exported
-. . exporting table               CR_HERO_OVERVIEW
-                                                          162 rows exported
-. . exporting table           CR_HERO_OVERVIEW_DEL
-                                                            0 rows exported
 . . exporting table                  CR_HERO_PHOTO
                                                           162 rows exported
 . . exporting table              CR_HERO_PHOTO_DEL
