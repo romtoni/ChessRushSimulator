@@ -27,7 +27,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table              CR_HERO_CLASS_DEL
                                                             1 rows exported
 . . exporting table                    CR_HERO_DEL
-                                                            2 rows exported
+                                                            3 rows exported
 . . exporting table                  CR_HERO_PHOTO
                                                           162 rows exported
 . . exporting table              CR_HERO_PHOTO_DEL
@@ -81,7 +81,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table        CR_ITEM_STAT_DETAIL_DEL
                                                             0 rows exported
 . . exporting table             CR_SAVE_BUILD_LIST
-                                                           21 rows exported
+                                                           25 rows exported
 . . exporting table         CR_SAVE_BUILD_LIST_DEL
                                                            22 rows exported
 . . exporting table                     CR_SYNERGY
