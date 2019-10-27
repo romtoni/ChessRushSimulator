@@ -112,6 +112,18 @@ About to export USER_CHESSRUSH's objects ...
                                                            24 rows exported
 . . exporting table        CR_ITEM_STAT_DETAIL_DEL
                                                             0 rows exported
+. . exporting table                       CR_LEVEL
+                                                           18 rows exported
+. . exporting table                   CR_LEVEL_DEL
+                                                            0 rows exported
+. . exporting table                CR_LEVEL_RARITY
+                                                            9 rows exported
+. . exporting table            CR_LEVEL_RARITY_DEL
+                                                            0 rows exported
+. . exporting table                  CR_LEVEL_TYPE
+                                                           10 rows exported
+. . exporting table              CR_LEVEL_TYPE_DEL
+                                                            0 rows exported
 . . exporting table             CR_SAVE_BUILD_LIST
                                                            25 rows exported
 . . exporting table         CR_SAVE_BUILD_LIST_DEL
