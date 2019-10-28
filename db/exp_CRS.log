@@ -36,6 +36,10 @@ About to export USER_CHESSRUSH's objects ...
                                                             0 rows exported
 . . exporting table              APP_ROLE_MENU_DEL
                                                             0 rows exported
+. . exporting table              APP_STATISTIC_HIT
+                                                            0 rows exported
+. . exporting table       APP_STATISTIC_UNIQUE_HIT
+                                                            0 rows exported
 . . exporting table                       APP_USER
                                                             0 rows exported
 . . exporting table                   APP_USER_DEL
@@ -123,6 +127,10 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table                  CR_LEVEL_TYPE
                                                            10 rows exported
 . . exporting table              CR_LEVEL_TYPE_DEL
+                                                            0 rows exported
+. . exporting table               CR_PREVIEW_ARENA
+                                                            0 rows exported
+. . exporting table               CR_PREVIEW_BENCH
                                                             0 rows exported
 . . exporting table             CR_SAVE_BUILD_LIST
                                                            25 rows exported
