@@ -42,6 +42,8 @@ About to export USER_CHESSRUSH's objects ...
                                                             0 rows exported
 . . exporting table                       APP_USER
                                                             0 rows exported
+. . exporting table        APP_USER_ACTIVATION_LOG
+                                                            0 rows exported
 . . exporting table                   APP_USER_DEL
                                                             0 rows exported
 . . exporting table        APP_USER_INVALID_UNLOCK
