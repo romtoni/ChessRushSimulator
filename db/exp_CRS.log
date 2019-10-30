@@ -131,11 +131,11 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table              CR_LEVEL_TYPE_DEL
                                                             0 rows exported
 . . exporting table               CR_PREVIEW_ARENA
-                                                           32 rows exported
+                                                            0 rows exported
 . . exporting table               CR_PREVIEW_BENCH
-                                                            8 rows exported
+                                                            0 rows exported
 . . exporting table             CR_SAVE_BUILD_LIST
-                                                           25 rows exported
+                                                           26 rows exported
 . . exporting table         CR_SAVE_BUILD_LIST_DEL
                                                            22 rows exported
 . . exporting table                     CR_SYNERGY
