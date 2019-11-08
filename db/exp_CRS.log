@@ -146,6 +146,10 @@ About to export USER_CHESSRUSH's objects ...
                                                             0 rows exported
 . . exporting table                 CR_SYNERGY_DEL
                                                             2 rows exported
+. . exporting table              CR_SYNERGY_EFFECT
+                                                            5 rows exported
+. . exporting table          CR_SYNERGY_EFFECT_DEL
+                                                            0 rows exported
 . . exporting table                CR_SYNERGY_TYPE
                                                             3 rows exported
 . . exporting table            CR_SYNERGY_TYPE_DEL
