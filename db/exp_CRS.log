@@ -15,35 +15,39 @@ About to export USER_CHESSRUSH's objects ...
 . exporting cluster definitions
 . about to export USER_CHESSRUSH's tables via Conventional Path ...
 . . exporting table                 APP_API_ACCESS
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table          APP_API_ACCESS_DETAIL
-                                                            0 rows exported
+                                                            2 rows exported
 . . exporting table            APP_API_ACCESS_TYPE
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table                 APP_API_CLIENT
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table                 APP_API_STATUS
-                                                            0 rows exported
+                                                           19 rows exported
 . . exporting table                       APP_MENU
-                                                            0 rows exported
+                                                           23 rows exported
 . . exporting table                   APP_MENU_DEL
                                                             0 rows exported
+. . exporting table                    APP_MESSAGE
+                                                            1 rows exported
+. . exporting table                    APP_PROFILE
+                                                            1 rows exported
 . . exporting table                       APP_ROLE
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table                   APP_ROLE_DEL
                                                             0 rows exported
 . . exporting table                  APP_ROLE_MENU
-                                                            0 rows exported
+                                                           23 rows exported
 . . exporting table              APP_ROLE_MENU_DEL
                                                             0 rows exported
 . . exporting table              APP_STATISTIC_HIT
-                                                            0 rows exported
+                                                            2 rows exported
 . . exporting table       APP_STATISTIC_UNIQUE_HIT
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table                       APP_USER
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table        APP_USER_ACTIVATION_LOG
-                                                            0 rows exported
+                                                            1 rows exported
 . . exporting table                   APP_USER_DEL
                                                             0 rows exported
 . . exporting table        APP_USER_INVALID_UNLOCK
