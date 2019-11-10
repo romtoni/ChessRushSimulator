@@ -23,7 +23,7 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table                 APP_API_CLIENT
                                                             1 rows exported
 . . exporting table                 APP_API_STATUS
-                                                           19 rows exported
+                                                           20 rows exported
 . . exporting table                       APP_MENU
                                                            23 rows exported
 . . exporting table                   APP_MENU_DEL
@@ -80,15 +80,7 @@ About to export USER_CHESSRUSH's objects ...
                                                             0 rows exported
 . . exporting table                  CR_HERO_SKILL
                                                            54 rows exported
-. . exporting table         CR_HERO_SKILL_BASED_ON
-                                                            6 rows exported
-. . exporting table     CR_HERO_SKILL_BASED_ON_DEL
-                                                            0 rows exported
 . . exporting table              CR_HERO_SKILL_DEL
-                                                            0 rows exported
-. . exporting table           CR_HERO_SKILL_DETAIL
-                                                          162 rows exported
-. . exporting table       CR_HERO_SKILL_DETAIL_DEL
                                                             0 rows exported
 . . exporting table             CR_HERO_SKILL_TYPE
                                                             5 rows exported
@@ -115,11 +107,11 @@ About to export USER_CHESSRUSH's objects ...
 . . exporting table               CR_HERO_TIER_DEL
                                                             0 rows exported
 . . exporting table                        CR_ITEM
-                                                            6 rows exported
+                                                           26 rows exported
 . . exporting table                    CR_ITEM_DEL
                                                             0 rows exported
 . . exporting table            CR_ITEM_STAT_DETAIL
-                                                           24 rows exported
+                                                           44 rows exported
 . . exporting table        CR_ITEM_STAT_DETAIL_DEL
                                                             0 rows exported
 . . exporting table                       CR_LEVEL
