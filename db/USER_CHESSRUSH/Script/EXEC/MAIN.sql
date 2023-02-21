@@ -157,7 +157,7 @@
 @C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_APP_MENU_ROLE_ALL.sql 
 @C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_APP_MENU_ROLE_SELECTED.sql 
 @C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_APP_MENU_SELECTED.sql 
-@C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_APP_MENU_USELECTED.sql 
+@C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_APP_MENU_UNSELECTED.sql 
 @C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_APP_ROLE_UNSELECTED.sql 
 @C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_LVL_HERO_POOL_CHANCE.sql 
 @C:\implementasi\deployment\USER_CHESSRUSH\Script\Deployment\Views\V_LVL_HERO_POOL_TIER_CHANCE.sql 
