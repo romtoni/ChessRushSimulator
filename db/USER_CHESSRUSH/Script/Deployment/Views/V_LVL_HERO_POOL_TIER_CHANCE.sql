@@ -1,0 +1,29 @@
+/* Formatted on 21/02/2023 21:51:53 (QP5 v5.114.809.3010) */
+CREATE OR REPLACE FORCE VIEW USER_CHESSRUSH.V_LVL_HERO_POOL_TIER_CHANCE
+(
+   LEVEL_NO,
+   HERO_TIER_ID
+)
+AS
+   SELECT   LEVEL_NO, HERO_TIER_ID
+     FROM   (SELECT   LEVEL_NO, HERO_TIER_1 AS HERO_TIER_ID
+               FROM   CR_LEVEL_RARITY
+              WHERE   HERO_TIER_CHANCE_1 > 0
+             UNION
+             SELECT   LEVEL_NO, HERO_TIER_2 AS HERO_TIER_ID
+               FROM   CR_LEVEL_RARITY
+              WHERE   HERO_TIER_CHANCE_2 > 0
+             UNION
+             SELECT   LEVEL_NO, HERO_TIER_3 AS HERO_TIER_ID
+               FROM   CR_LEVEL_RARITY
+              WHERE   HERO_TIER_CHANCE_3 > 0
+             UNION
+             SELECT   LEVEL_NO, HERO_TIER_4 AS HERO_TIER_ID
+               FROM   CR_LEVEL_RARITY
+              WHERE   HERO_TIER_CHANCE_4 > 0
+             UNION
+             SELECT   LEVEL_NO, HERO_TIER_5 AS HERO_TIER_ID
+               FROM   CR_LEVEL_RARITY
+              WHERE   HERO_TIER_CHANCE_5 > 0);
+
+

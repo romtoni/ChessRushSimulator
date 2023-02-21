@@ -1,0 +1,33 @@
+/* Formatted on 21/02/2023 21:51:53 (QP5 v5.114.809.3010) */
+CREATE OR REPLACE FORCE VIEW USER_CHESSRUSH.V_LVL_HERO_POOL_CHANCE
+(
+   LEVEL_NO,
+   HERO_TIER_ID,
+   HERO_ID,
+   HERO_IMAGE_ARENA,
+   HERO_IMAGE_ARENA_BLOB,
+   HERO_NAME,
+   RACE_NAME,
+   RACE_NAME_ALT,
+   CLASS_NAME,
+   CLASS_NAME_ALT
+)
+AS
+     SELECT   B.LEVEL_NO,
+              B.HERO_TIER_ID,
+              A.HERO_ID,
+              A.HERO_IMAGE_ARENA,
+              A.HERO_IMAGE_ARENA_BLOB,
+              A.HERO_NAME,
+              A.RACE_NAME,
+              A.RACE_NAME_ALT,
+              A.CLASS_NAME,
+              A.CLASS_NAME_ALT
+       FROM      V_MST_HERO_PROFILE A
+              LEFT JOIN
+                 V_LVL_HERO_POOL_TIER_CHANCE B
+              ON B.HERO_TIER_ID = A.HERO_TIER_ID
+      WHERE   A.STAR_GRADE = 1
+   ORDER BY   B.LEVEL_NO ASC, B.HERO_TIER_ID ASC, A.HERO_ID ASC;
+
+

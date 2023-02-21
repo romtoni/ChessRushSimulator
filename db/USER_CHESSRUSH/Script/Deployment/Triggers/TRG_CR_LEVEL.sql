@@ -1,0 +1,22 @@
+CREATE OR REPLACE TRIGGER USER_CHESSRUSH.TRG_CR_LEVEL
+BEFORE INSERT
+ON USER_CHESSRUSH.CR_LEVEL 
+REFERENCING NEW AS New OLD AS Old
+FOR EACH ROW
+DECLARE
+tmpVar NUMBER;
+
+BEGIN
+   tmpVar := 0;
+
+   SELECT SQ_LEVEL_ID.NEXTVAL INTO tmpVar FROM dual;
+   :NEW.LEVEL_ID := tmpVar;
+
+   EXCEPTION
+     WHEN OTHERS THEN
+       -- Consider logging the error and then re-raise
+       RAISE;
+END ;
+/
+
+

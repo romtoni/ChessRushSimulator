@@ -1,0 +1,21 @@
+CREATE OR REPLACE PROCEDURE USER_CHESSRUSH.SP_DEL_SYNERGY (P_SYNERGY_ID    NUMBER,
+                                            P_USERLOGIN     VARCHAR2,
+                                            P_REASON        VARCHAR2)
+IS
+BEGIN
+   INSERT INTO CR_SYNERGY_DEL
+      SELECT   A.*,
+               SYSDATE AS DATE_DELETE,
+               P_USERLOGIN AS USER_DELETE,
+               P_REASON AS REASON_DELETE
+        FROM   CR_SYNERGY A
+       WHERE   A.SYNERGY_ID = P_SYNERGY_ID;
+
+   DELETE FROM   CR_SYNERGY
+         WHERE   SYNERGY_ID = P_SYNERGY_ID;
+
+   COMMIT;
+END;
+/
+
+

@@ -1,0 +1,22 @@
+CREATE OR REPLACE TRIGGER USER_CHESSRUSH.TRG_APP_ROLE
+BEFORE INSERT
+ON USER_CHESSRUSH.APP_ROLE 
+REFERENCING NEW AS New OLD AS Old
+FOR EACH ROW
+DECLARE
+tmpVar NUMBER;
+
+BEGIN
+   tmpVar := 0;
+
+   SELECT SQ_ROLE_ID.NEXTVAL INTO tmpVar FROM dual;
+   :NEW.ROLE_ID := tmpVar;
+
+   EXCEPTION
+     WHEN OTHERS THEN
+       -- Consider logging the error and then re-raise
+       RAISE;
+END ;
+/
+
+

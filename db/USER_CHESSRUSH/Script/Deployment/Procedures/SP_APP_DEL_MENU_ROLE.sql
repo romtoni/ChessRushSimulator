@@ -1,0 +1,47 @@
+CREATE OR REPLACE PROCEDURE USER_CHESSRUSH.SP_APP_DEL_MENU_ROLE (
+   P_KODE         VARCHAR2,
+   P_ID           NUMBER,
+   P_USERLOGIN    VARCHAR2,
+   P_REASON       VARCHAR2
+)
+IS
+   V_MENU_ID   NUMBER;
+   V_ROLE_ID   NUMBER;
+BEGIN
+   IF P_KODE = 'ROLE'
+   THEN
+      V_ROLE_ID := P_ID;
+
+      INSERT INTO APP_ROLE_MENU_DEL
+         SELECT   A.*,
+                  SYSDATE AS DATE_DELETE,
+                  P_USERLOGIN AS USER_DELETE,
+                  P_REASON AS REASON_DELETE
+           FROM   APP_ROLE_MENU A
+          WHERE   A.ROLE_ID = V_ROLE_ID;
+
+      DELETE FROM   APP_ROLE_MENU
+            WHERE   ROLE_ID = V_ROLE_ID;
+   END IF;
+
+   IF P_KODE = 'MENU'
+   THEN
+      V_MENU_ID := P_ID;
+
+      INSERT INTO APP_ROLE_MENU_DEL
+         SELECT   A.*,
+                  SYSDATE AS DATE_DELETE,
+                  P_USERLOGIN AS USER_DELETE,
+                  P_REASON AS REASON_DELETE
+           FROM   APP_ROLE_MENU A
+          WHERE   A.MENU_ID = V_MENU_ID;
+
+      DELETE FROM   APP_ROLE_MENU
+            WHERE   MENU_ID = V_MENU_ID;
+   END IF;
+
+   COMMIT;
+END;
+/
+
+
