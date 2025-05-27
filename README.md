@@ -1,8 +1,4 @@
-# 🎮 ChessRushSimulator
-
-![Unfinished](https://img.shields.io/badge/unfinished-yellow)  ![Abandoned](https://img.shields.io/badge/abandoned-red)
-
-## 🚀 Tech Stack
+# 🎮 ChessRushSimulator ![Unfinished](https://img.shields.io/badge/unfinished-yellow)  ![Abandoned](https://img.shields.io/badge/abandoned-red)
 
 [![Oracle SQL](https://img.shields.io/badge/Oracle-000000?style=flat&logo=oracle&logoColor=red)](https://www.oracle.com/database/) [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)
 
