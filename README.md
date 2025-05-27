@@ -1,5 +1,8 @@
 # ChessRushSimulator
 
+![Status: Unfinished](https://img.shields.io/badge/status-unfinished-yellow)  
+![Status: Abandoned](https://img.shields.io/badge/status-abandoned-red)
+
 **ChessRushSimulator** is a tool designed to simulate and analyze various mechanics in the game *Chess Rush*. It helps players optimize their strategies by providing detailed insights through interactive simulations.
 
 ## Key Features
