@@ -1,7 +1,10 @@
-# ChessRushSimulator
+# 🎮 ChessRushSimulator
 
-![Status: Unfinished](https://img.shields.io/badge/status-unfinished-yellow)  
-![Status: Abandoned](https://img.shields.io/badge/status-abandoned-red)
+![Unfinished](https://img.shields.io/badge/unfinished-yellow)  ![Abandoned](https://img.shields.io/badge/abandoned-red)
+
+## 🚀 Tech Stack
+
+[![Oracle SQL](https://img.shields.io/badge/Oracle-000000?style=flat&logo=oracle&logoColor=red)](https://www.oracle.com/database/) [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)
 
 **ChessRushSimulator** is a tool designed to simulate and analyze various mechanics in the game *Chess Rush*. It helps players optimize their strategies by providing detailed insights through interactive simulations.
 
