@@ -1,0 +1,55 @@
+/* Formatted on 21/02/2023 21:51:56 (QP5 v5.114.809.3010) */
+CREATE OR REPLACE FORCE VIEW USER_CHESSRUSH.V_LVL_HERO_TIER_SLOT
+(
+   LEVEL_NO,
+   HERO_TIER_SLOT_1,
+   HERO_TIER_SLOT_2,
+   HERO_TIER_SLOT_3,
+   HERO_TIER_SLOT_4,
+   HERO_TIER_SLOT_5
+)
+AS
+   SELECT   LEVEL_NO,
+            F_LVL_CHECK_SLOT_CHANCE (
+               DECODE (HERO_TIER_CHANCE_1, 0, 0, HERO_TIER_1),
+               DECODE (HERO_TIER_CHANCE_2, 0, 0, HERO_TIER_2),
+               DECODE (HERO_TIER_CHANCE_3, 0, 0, HERO_TIER_3),
+               DECODE (HERO_TIER_CHANCE_4, 0, 0, HERO_TIER_4),
+               DECODE (HERO_TIER_CHANCE_5, 0, 0, HERO_TIER_5)
+            )
+               AS HERO_TIER_SLOT_1,
+            F_LVL_CHECK_SLOT_CHANCE (
+               DECODE (HERO_TIER_CHANCE_1, 0, 0, HERO_TIER_1),
+               DECODE (HERO_TIER_CHANCE_2, 0, 0, HERO_TIER_2),
+               DECODE (HERO_TIER_CHANCE_3, 0, 0, HERO_TIER_3),
+               DECODE (HERO_TIER_CHANCE_4, 0, 0, HERO_TIER_4),
+               DECODE (HERO_TIER_CHANCE_5, 0, 0, HERO_TIER_5)
+            )
+               AS HERO_TIER_SLOT_2,
+            F_LVL_CHECK_SLOT_CHANCE (
+               DECODE (HERO_TIER_CHANCE_1, 0, 0, HERO_TIER_1),
+               DECODE (HERO_TIER_CHANCE_2, 0, 0, HERO_TIER_2),
+               DECODE (HERO_TIER_CHANCE_3, 0, 0, HERO_TIER_3),
+               DECODE (HERO_TIER_CHANCE_4, 0, 0, HERO_TIER_4),
+               DECODE (HERO_TIER_CHANCE_5, 0, 0, HERO_TIER_5)
+            )
+               AS HERO_TIER_SLOT_3,
+            F_LVL_CHECK_SLOT_CHANCE (
+               DECODE (HERO_TIER_CHANCE_1, 0, 0, HERO_TIER_1),
+               DECODE (HERO_TIER_CHANCE_2, 0, 0, HERO_TIER_2),
+               DECODE (HERO_TIER_CHANCE_3, 0, 0, HERO_TIER_3),
+               DECODE (HERO_TIER_CHANCE_4, 0, 0, HERO_TIER_4),
+               DECODE (HERO_TIER_CHANCE_5, 0, 0, HERO_TIER_5)
+            )
+               AS HERO_TIER_SLOT_4,
+            F_LVL_CHECK_SLOT_CHANCE (
+               DECODE (HERO_TIER_CHANCE_1, 0, 0, HERO_TIER_1),
+               DECODE (HERO_TIER_CHANCE_2, 0, 0, HERO_TIER_2),
+               DECODE (HERO_TIER_CHANCE_3, 0, 0, HERO_TIER_3),
+               DECODE (HERO_TIER_CHANCE_4, 0, 0, HERO_TIER_4),
+               DECODE (HERO_TIER_CHANCE_5, 0, 0, HERO_TIER_5)
+            )
+               AS HERO_TIER_SLOT_5
+     FROM   V_LVL_HERO_TIER_CHANCE;
+
+

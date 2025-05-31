@@ -1,0 +1,10 @@
+SET DEFINE OFF;
+--
+--SQL Statement which produced this data:
+--  SELECT * FROM USER_CHESSRUSH.APP_PROFILE
+--
+Insert into USER_CHESSRUSH.APP_PROFILE
+   (FIRST_NAME, PHOTO, DATE_CREATE, USER_CREATE)
+ Values
+   ('ROMTONI', 'img/about/default.png', TO_DATE('11/09/2019 09:22:00', 'MM/DD/YYYY HH24:MI:SS'), 'DBA');
+COMMIT;

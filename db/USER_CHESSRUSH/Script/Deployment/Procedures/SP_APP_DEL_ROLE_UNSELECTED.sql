@@ -1,0 +1,18 @@
+CREATE OR REPLACE PROCEDURE USER_CHESSRUSH.SP_APP_DEL_ROLE_UNSELECTED (
+   P_ROLE_ID      NUMBER,
+   P_USERLOGIN    VARCHAR2,
+   P_REASON       VARCHAR2
+)
+IS
+BEGIN
+   SP_APP_DEL_ROLE (P_ROLE_ID, P_USERLOGIN, P_REASON);
+
+   SP_APP_DEL_MENU_ROLE ('ROLE',
+                         P_ROLE_ID,
+                         P_USERLOGIN,
+                         P_REASON);
+   COMMIT;
+END;
+/
+
+

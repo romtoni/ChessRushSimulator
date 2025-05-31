@@ -1,0 +1,169 @@
+
+Connected to: Oracle Database 11g Enterprise Edition Release 11.1.0.6.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Export done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+
+About to export specified users ...
+. exporting pre-schema procedural objects and actions
+. exporting foreign function library names for user USER_CHESSRUSH 
+. exporting PUBLIC type synonyms
+. exporting private type synonyms
+. exporting object type definitions for user USER_CHESSRUSH 
+About to export USER_CHESSRUSH's objects ...
+. exporting database links
+. exporting sequence numbers
+. exporting cluster definitions
+. about to export USER_CHESSRUSH's tables via Conventional Path ...
+. . exporting table                 APP_API_ACCESS
+                                                            1 rows exported
+. . exporting table          APP_API_ACCESS_DETAIL
+                                                            2 rows exported
+. . exporting table            APP_API_ACCESS_TYPE
+                                                            1 rows exported
+. . exporting table                 APP_API_CLIENT
+                                                            1 rows exported
+. . exporting table                 APP_API_STATUS
+                                                           20 rows exported
+. . exporting table                       APP_MENU
+                                                           23 rows exported
+. . exporting table                   APP_MENU_DEL
+                                                            0 rows exported
+. . exporting table                    APP_MESSAGE
+                                                            1 rows exported
+. . exporting table                    APP_PROFILE
+                                                            1 rows exported
+. . exporting table                       APP_ROLE
+                                                            1 rows exported
+. . exporting table                   APP_ROLE_DEL
+                                                            0 rows exported
+. . exporting table                  APP_ROLE_MENU
+                                                           23 rows exported
+. . exporting table              APP_ROLE_MENU_DEL
+                                                            0 rows exported
+. . exporting table              APP_STATISTIC_HIT
+                                                            2 rows exported
+. . exporting table       APP_STATISTIC_UNIQUE_HIT
+                                                            1 rows exported
+. . exporting table                       APP_USER
+                                                            1 rows exported
+. . exporting table        APP_USER_ACTIVATION_LOG
+                                                            1 rows exported
+. . exporting table                   APP_USER_DEL
+                                                            0 rows exported
+. . exporting table        APP_USER_INVALID_UNLOCK
+                                                            0 rows exported
+. . exporting table                   APP_USER_LOG
+                                                            0 rows exported
+. . exporting table               APP_USER_SESSION
+                                                            0 rows exported
+. . exporting table       CR_BUILD_DETAIL_HERO_TMP
+                                                            0 rows exported
+. . exporting table    CR_BUILD_DETAIL_SYNERGY_TMP
+                                                            0 rows exported
+. . exporting table              CR_BUILD_LIST_TMP
+                                                            0 rows exported
+. . exporting table                        CR_HERO
+                                                           54 rows exported
+. . exporting table                  CR_HERO_CLASS
+                                                            9 rows exported
+. . exporting table              CR_HERO_CLASS_DEL
+                                                            1 rows exported
+. . exporting table                    CR_HERO_DEL
+                                                            3 rows exported
+. . exporting table                  CR_HERO_PHOTO
+                                                          162 rows exported
+. . exporting table              CR_HERO_PHOTO_DEL
+                                                            0 rows exported
+. . exporting table                   CR_HERO_RACE
+                                                           12 rows exported
+. . exporting table               CR_HERO_RACE_DEL
+                                                            0 rows exported
+. . exporting table                  CR_HERO_SKILL
+                                                           54 rows exported
+. . exporting table              CR_HERO_SKILL_DEL
+                                                            0 rows exported
+. . exporting table             CR_HERO_SKILL_TYPE
+                                                            5 rows exported
+. . exporting table         CR_HERO_SKILL_TYPE_DEL
+                                                            0 rows exported
+. . exporting table                   CR_HERO_STAT
+                                                          162 rows exported
+. . exporting table                 CR_HERO_STATUS
+                                                            2 rows exported
+. . exporting table             CR_HERO_STATUS_DEL
+                                                            0 rows exported
+. . exporting table               CR_HERO_STAT_DEL
+                                                            0 rows exported
+. . exporting table              CR_HERO_STAT_TYPE
+                                                            2 rows exported
+. . exporting table          CR_HERO_STAT_TYPE_DEL
+                                                            0 rows exported
+. . exporting table                CR_HERO_TAGLINE
+                                                           54 rows exported
+. . exporting table            CR_HERO_TAGLINE_DEL
+                                                            0 rows exported
+. . exporting table                   CR_HERO_TIER
+                                                            5 rows exported
+. . exporting table               CR_HERO_TIER_DEL
+                                                            0 rows exported
+. . exporting table                        CR_ITEM
+                                                           43 rows exported
+. . exporting table                    CR_ITEM_DEL
+                                                            0 rows exported
+. . exporting table            CR_ITEM_STAT_DETAIL
+                                                           61 rows exported
+. . exporting table        CR_ITEM_STAT_DETAIL_DEL
+                                                            0 rows exported
+. . exporting table                       CR_LEVEL
+                                                           18 rows exported
+. . exporting table                   CR_LEVEL_DEL
+                                                            0 rows exported
+. . exporting table                CR_LEVEL_RARITY
+                                                            9 rows exported
+. . exporting table            CR_LEVEL_RARITY_DEL
+                                                            0 rows exported
+. . exporting table                  CR_LEVEL_TYPE
+                                                           10 rows exported
+. . exporting table              CR_LEVEL_TYPE_DEL
+                                                            0 rows exported
+. . exporting table               CR_PREVIEW_ARENA
+                                                           32 rows exported
+. . exporting table               CR_PREVIEW_BENCH
+                                                            8 rows exported
+. . exporting table             CR_SAVE_BUILD_LIST
+                                                           26 rows exported
+. . exporting table         CR_SAVE_BUILD_LIST_DEL
+                                                           23 rows exported
+. . exporting table                     CR_SYNERGY
+                                                           43 rows exported
+. . exporting table                CR_SYNERGY_CODE
+                                                            2 rows exported
+. . exporting table            CR_SYNERGY_CODE_DEL
+                                                            0 rows exported
+. . exporting table                 CR_SYNERGY_DEL
+                                                            2 rows exported
+. . exporting table              CR_SYNERGY_EFFECT
+                                                            5 rows exported
+. . exporting table          CR_SYNERGY_EFFECT_DEL
+                                                            0 rows exported
+. . exporting table                CR_SYNERGY_TYPE
+                                                            3 rows exported
+. . exporting table            CR_SYNERGY_TYPE_DEL
+                                                            0 rows exported
+. exporting synonyms
+. exporting views
+. exporting stored procedures
+. exporting operators
+. exporting referential integrity constraints
+. exporting triggers
+. exporting indextypes
+. exporting bitmap, functional and extensible indexes
+. exporting posttables actions
+. exporting materialized views
+. exporting snapshot logs
+. exporting job queues
+. exporting refresh groups and children
+. exporting dimensions
+. exporting post-schema procedural objects and actions
+. exporting statistics
+Export terminated successfully without warnings.

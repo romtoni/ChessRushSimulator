@@ -1,0 +1,21 @@
+CREATE OR REPLACE TRIGGER USER_CHESSRUSH.TRG_ITEM_ID
+BEFORE INSERT
+ON USER_CHESSRUSH.CR_ITEM REFERENCING NEW AS New OLD AS Old
+FOR EACH ROW
+DECLARE
+tmpVar NUMBER;
+
+BEGIN
+   tmpVar := 0;
+
+   SELECT SQ_ITEM_ID.NEXTVAL INTO tmpVar FROM dual;
+   :NEW.ITEM_ID := tmpVar;
+
+   EXCEPTION
+     WHEN OTHERS THEN
+       -- Consider logging the error and then re-raise
+       RAISE;
+END ;
+/
+
+
